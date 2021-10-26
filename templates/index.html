@@ -1,0 +1,9 @@
+{% extends "main.html" %}
+
+{% import 'card.html' as card %}
+
+{% block content %}
+  {% for movie in movies %}
+    <p>{{ card.moviecard(movie[1], movie[2]) }}</p>
+  {% endfor %}
+{% endblock %}
