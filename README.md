@@ -1,7 +1,4 @@
-# Workshop
-
-> Requirements
+### Requirements
 
     flask
     flask-mysql
-    flask-bootstrap
