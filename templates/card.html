@@ -1,4 +1,5 @@
-{% macro moviecard(title, plot) %}
+{% macro moviecard(id, title, plot, year, lenght, director, background, coverimage, maincolor, genres) %}
+
 <div class="movie_card" id="bright">
     <div class="info_section">
       <div class="movie_header">
@@ -14,6 +15,7 @@
         </p>
       </div>
     </div>
-    <div class="blur_back bright_back"></div>
+    <div class="blur_back" style="background-image: url('{{background}}')"></div>
   </div>
+
 {% endmacro %}
